@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass'
 gem 'simple_form'
+gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
 
 gem 'dotenv-rails', groups: [:development, :test]
 

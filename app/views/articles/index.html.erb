@@ -16,6 +16,8 @@
       <tr>
         <td><%= article.title %></td>
         <td><%= article.body %></td>
+        <%= cl_image_tag("ppsy7w2p2s4hvcpdx00y.jpg",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
         <td><%= link_to 'Show', article %></td>
         <td><%= link_to 'Edit', edit_article_path(article) %></td>
         <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
